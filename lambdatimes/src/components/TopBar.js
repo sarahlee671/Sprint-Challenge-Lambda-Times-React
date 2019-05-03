@@ -76,14 +76,6 @@ const RightSpan = styled.span`
   cursor: pointer;
 `;
 
-
-
-
-
-
-// Refactor this component to use styled components and not classNames. 
-// You can find the corresponding CSS in the CSS/index.css file
-
 const TopBar = () => {
   return (
     <TopBarDiv>
@@ -91,10 +83,10 @@ const TopBar = () => {
         <TopBarLeft>
           <LeftSpan>TOPICS</LeftSpan><LeftSpan>SEARCH</LeftSpan>
         </TopBarLeft>
-        <CenterContainer className="container-center">
+        <CenterContainer>
           <CenterSpan>GENERAL</CenterSpan><CenterSpan>BROWNBAG</CenterSpan><CenterSpan>RANDOM</CenterSpan><CenterSpan>MUSIC</CenterSpan><CenterSpan>ANNOUNCEMENTS</CenterSpan>
         </CenterContainer>
-        <ContainerRight className="container-right">
+        <ContainerRight>
           <RightSpan>LOG IN</RightSpan>
         </ContainerRight>
       </TopBarContainer>
